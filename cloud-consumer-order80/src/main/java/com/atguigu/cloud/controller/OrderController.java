@@ -11,7 +11,8 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 @Tag(name = "订单微服务模块", description = "订单CRUD")
 public class OrderController {
-    public static final String Payment_URL="http://localhost:8001"; //先硬编码，后期再改成注册中心
+//    public static final String Payment_URL="http://localhost:8001"; //先硬编码，后期再改成注册中心
+    public static final String Payment_URL="http://cloud-payment-service"; //服务注册中心上的微服务名称
     @Resource
     private RestTemplate restTemplate;
 
