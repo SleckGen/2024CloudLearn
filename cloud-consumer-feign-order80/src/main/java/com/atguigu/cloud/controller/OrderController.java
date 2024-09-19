@@ -1,5 +1,6 @@
 package com.atguigu.cloud.controller;
 
+import cn.hutool.core.date.DateUtil;
 import com.atguigu.cloud.apis.PayFeignApi;
 import com.atguigu.cloud.entities.PayDTO;
 import com.atguigu.cloud.resp.ResultData;
@@ -33,7 +34,20 @@ public class OrderController {
     * openfeign天然支持负载均衡演示
     * */
     @GetMapping(value = "/feign/pay/mylb")
+    @Operation(summary = "负载均衡" , description = "负载均衡方法")
     public String mylb() {
-        return payFeignApi.mylb();
+
+        System.out.println("------ 支付微服务远程调用，查询机器信息");
+        String mylb = null;
+        try{
+            System.out.println("调用开始------：" + DateUtil.now());
+            mylb = payFeignApi.mylb();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("调用结束------：" + DateUtil.now());
+            return "error because time out";
+        }
+
+        return mylb;
     }
 }

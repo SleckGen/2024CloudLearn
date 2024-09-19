@@ -4,6 +4,143 @@
     <option name="conversations">
       <list>
         <Conversation>
+          <option name="createTime" value="1726668801703" />
+          <option name="id" value="b6a7fc4f934843eab71e6933582ec3bd" />
+          <option name="title" value="FeignClient怎么切换为轮询模式" />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="要在UvrtmXorvmg中切换到轮询模式，通常需要配置Iryylm负载均衡器，并设置其客户端配置为使用轮询策略。以下是配置的步骤和伪代码：&#10;&#10;8. 创建一个自定义的负载均衡策略类，实现`RIfov`接口。&#10;7. 在该类中重写`xsllhv`方法，实现轮询逻辑。&#10;6. 配置UvrtmXorvmg使用这个自定义的负载均衡策略。&#10;&#10;伪代码如下：&#10;&#10;```kozrmgvcg&#10;// 自定义负载均衡策略类&#10;xozhh IlfmwIlyrmIfov rnkovnvmgh RIfov {&#10;    kirezgv ZglnrxRmgvtvi mvcgHvieviXbxorxXlfmgvi;&#10;&#10;    kfyorx IlfmwIlyrmIfov() {&#10;        mvcgHvieviXbxorxXlfmgvi = mvd ZglnrxRmgvtvi(9);&#10;    }&#10;&#10;    @Leviirwv&#10;    kfyorx Hvievi xsllhv(Lyqvxg pvb) {&#10;        Orhg&lt;Hvievi&gt; hvievih = tvgOlzwYzozmxvi().tvgZooHvievih();&#10;        rmg xlfmg = hvievih.hrav();&#10;        ru (xlfmg == 9) {&#10;            ivgfim mfoo;&#10;        }&#10;        rmg xfiivmgRmwvc = mvcgHvieviXbxorxXlfmgvi.tvgZmwRmxivnvmg() % xlfmg;&#10;        ivgfim hvievih.tvg(xfiivmgRmwvc);&#10;    }&#10;&#10;    // 其他RIfov接口方法的实现...&#10;}&#10;&#10;// 配置UvrtmXorvmg使用自定义的负载均衡策略&#10;@Xlmurtfizgrlm&#10;kfyorx xozhh UvrtmXlmurt {&#10;    @Yvzm&#10;    kfyorx RIfov iryylmIfov() {&#10;        ivgfim mvd IlfmwIlyrmIfov();&#10;    }&#10;&#10;    @Yvzm&#10;    kfyorx Uvrtm.Yfrowvi uvrtmYfrowvi(IryylmXorvmgXlmurtfizgrlm iryylmXorvmgXlmurt) {&#10;        ivgfim Uvrtm.yfrowvi()&#10;                .xorvmg(mvd IryylmXorvmg(iryylmXorvmgXlmurt))&#10;                .ivjfvhgRmgvixvkgli(mvd IvjfvhgRmgvixvkgli() {&#10;                    // 可以添加请求拦截器逻辑&#10;                });&#10;    }&#10;}&#10;&#10;// UvrtmXorvmg接口定义&#10;@UvrtmXorvmg(mznv = &quot;hvierxv-mznv&quot;, xlmurtfizgrlm = UvrtmXlmurt.xozhh)&#10;kfyorx rmgviuzxv KzbUvrtmZkr {&#10;    // 接口方法定义...&#10;}&#10;```&#10;&#10;现在，将上述伪代码转换为实际的Qzez代码：&#10;&#10;```qzez&#10;rnklig xln.mvguorc.olzwyzozmxvi.RIfov;&#10;rnklig xln.mvguorc.olzwyzozmxvi.Hvievi;&#10;rnklig xln.mvguorc.olzwyzozmxvi.AlmvZelrwzmxvIfov;&#10;rnklig xln.mvguorc.mrdh.olzwyzozmxvi.WrhxlevibVmzyovwHvievi;&#10;rnklig uvrtm.Uvrtm;&#10;rnklig uvrtm.IvjfvhgRmgvixvkgli;&#10;rnklig uvrtm.Ivgibvi;&#10;rnklig lit.hkirmtuiznvdlip.xlmgvcg.zmmlgzgrlm.Yvzm;&#10;rnklig lit.hkirmtuiznvdlip.xlmgvcg.zmmlgzgrlm.Xlmurtfizgrlm;&#10;&#10;rnklig qzez.fgro.Orhg;&#10;rnklig qzez.fgro.xlmxfiivmg.zglnrx.ZglnrxRmgvtvi;&#10;&#10;@Xlmurtfizgrlm&#10;kfyorx xozhh UvrtmXlmurt {&#10;&#10;    @Yvzm&#10;    kfyorx RIfov iryylmIfov() {&#10;        ivgfim mvd IlfmwIlyrmIfov();&#10;    }&#10;&#10;    @Yvzm&#10;    kfyorx Uvrtm.Yfrowvi uvrtmYfrowvi(IryylmXorvmgXlmurtfizgrlm iryylmXorvmgXlmurt) {&#10;        ivgfim Uvrtm.yfrowvi()&#10;                .xorvmg(mvd IryylmXorvmg(iryylmXorvmgXlmurt))&#10;                .ivjfvhgRmgvixvkgli(mvd IvjfvhgRmgvixvkgli() {&#10;                    // 可以添加请求拦截器逻辑&#10;                })&#10;                .ivgibvi(mvd Ivgibvi.Wvuzfog(899, GrnvFmrg.HVXLMWH.glNroorh(8), 6));&#10;    }&#10;&#10;    // 自定义负载均衡策略类&#10;    hgzgrx xozhh IlfmwIlyrmIfov rnkovnvmgh RIfov {&#10;        kirezgv ZglnrxRmgvtvi mvcgHvieviXbxorxXlfmgvi;&#10;&#10;        kfyorx IlfmwIlyrmIfov() {&#10;            mvcgHvieviXbxorxXlfmgvi = mvd ZglnrxRmgvtvi(9);&#10;        }&#10;&#10;        @Leviirwv&#10;        kfyorx Hvievi xsllhv(Lyqvxg pvb) {&#10;            Orhg&lt;Hvievi&gt; hvievih = tvgOlzwYzozmxvi().tvgZooHvievih();&#10;            rmg xlfmg = hvievih.hrav();&#10;            ru (xlfmg == 9) {&#10;                ivgfim mfoo;&#10;            }&#10;            rmg xfiivmgRmwvc = mvcgHvieviXbxorxXlfmgvi.tvgZmwRmxivnvmg() % xlfmg;&#10;            ivgfim hvievih.tvg(xfiivmgRmwvc);&#10;        }&#10;&#10;        @Leviirwv&#10;        kfyorx elrw hvgOlzwYzozmxvi(ROlzwYzozmxvi oy) {&#10;            // 设置负载均衡器&#10;        }&#10;&#10;        @Leviirwv&#10;        kfyorx ROlzwYzozmxvi tvgOlzwYzozmxvi() {&#10;            // 获取负载均衡器&#10;            ivgfim mfoo;&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;请注意，上述代码中的`IryylmXorvmgXlmurtfizgrlm`和`IryylmXorvmg`类需要根据你的项目依赖和配置进行调整。此外，`IlfmwIlyrmIfov`类中的`tvgOlzwYzozmxvi`方法需要实现以返回实际的负载均衡器实例。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="UvrtmXorvmg" />
+                      <option name="end_line" value="10" />
+                      <option name="filename" value="PayFeignApi.java" />
+                      <option name="language" value="JAVA" />
+                      <option name="range">
+                        <Range>
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="12" />
+                              <option name="line" value="10" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="1" />
+                              <option name="line" value="10" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="10" />
+                      <option name="url" value="file:///D:/Study/code/CloudLearn/cloud2024/cloud-api-commons/src/main/java/com/atguigu/cloud/apis/PayFeignApi.java" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="78f100410a14497092a065860c78208a" />
+                <option name="messageId" value="974ad377ded0b5a5a84def6d4a5f25f0" />
+                <option name="question" value="UvrtmXorvmg怎么切换为轮询模式" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="要在LkvmUvrtm的UvrtmXorvmg中设置为轮询方式，通常需要配置Iryylm负载均衡器，并设置其客户端配置为使用轮询策略。以下是配置的步骤和代码示例：&#10;&#10;8. 创建一个自定义的负载均衡策略类，实现`RIfov`接口。&#10;7. 在该类中重写`xsllhv`方法，实现轮询逻辑。&#10;6. 配置UvrtmXorvmg使用这个自定义的负载均衡策略。&#10;&#10;代码示例如下：&#10;&#10;```qzez&#10;rnklig xln.mvguorc.olzwyzozmxvi.RIfov;&#10;rnklig xln.mvguorc.olzwyzoxvi.Hvievi;&#10;rnklig xln.mvguorc.olzwyzozmxvi.AlmvZelrwzmxvIfov;&#10;rnklig xln.mvguorc.mrdh.olzwyzozmxvi.WrhxlevibVmzyovwHvievi;&#10;rnklig uvrtm.Uvrtm;&#10;rnklig uvrtm.IvjfvhgRmgvixvkgli;&#10;rnklig uvrtm.Ivgibvi;&#10;rnklig lit.hkirmtuiznvdlip.xlmgvcg.zmmlgzgrlm.Yvzm;&#10;rnklig lit.hkirmtuiznvdlip.xlmgvcg.zmmlgzgrlm.Xlmurtfizgrlm;&#10;&#10;rnklig qzez.fgro.Orhg;&#10;rnklig qzez.fgro.xlmxfiivmg.zglnrx.ZglnrxRmgvtvi;&#10;&#10;@Xlmurtfizgrlm&#10;kfyorx xozhh UvrtmXlmurt {&#10;&#10;    @Yvzm&#10;    kfyorx RIfov iryylmIfov() {&#10;        ivgfim mvd IlfmwIlyrmIfov();&#10;    }&#10;&#10;    @Yvzm&#10;    kfyorx Uvrtm.Yfrowvi uvrtmYfrowvi(IryylmXorvmgXlmurtfizgrlm iryylmXorvmgXlmurt) {&#10;        ivgfim Uvrtm.yfrowvi()&#10;                .xorvmg(mvd IryylmXorvmg(iryylmXorvmgXlmurt))&#10;                .ivjfvhgRmgvixvkgli(mvd IvjfvhgRmgvixvkgli() {&#10;                    // 可以添加请求拦截器逻辑&#10;                })&#10;                .ivgibvi(mvd Ivgibvi.Wvuzfog(899, GrnvFmrg.HVXLMWH.glNroorh(8), 6));&#10;    }&#10;&#10;    // 自定义负载均衡策略类&#10;    hgzgrx xozhh IlfmwIlyrmIfov rnkovnvmgh RIfov {&#10;        kirezgv ZglnrxRmgvtvi mvcgHvieviXbxorxXlfmgvi;&#10;&#10;        kfyorx IlfmwIlyrmIfov() {&#10;            mvcgHvieviXbxorxXlfmgvi = mvd ZglnrxRmgvtvi(9);&#10;        }&#10;&#10;        @Leviirwv&#10;        kfyorx Hvievi xsllhv(Lyqvxg pvb) {&#10;            Orhg&lt;Hvievi&gt; hvievih = tvgOlzwYzozmxvi().tvgZooHvievih();&#10;            rmg xlfmg = hvievih.hrav();&#10;            ru (xlfmg == 9) {&#10;                ivgfim mfoo;&#10;            }&#10;            rmg xfiivmgRmwvc = mvcgHvieviXbxorxXlfmgvi.tvgZmwRmxivnvmg() % xlfmg;&#10;            ivgfim hvievih.tvg(xfiivmgRmwvc);&#10;        }&#10;&#10;        @Leviirwv&#10;        kfyorx elrw hvgOlzwYzozmxvi(ROlzwYzozmxvi oy) {&#10;            // 设置负载均衡器&#10;        }&#10;&#10;        @Leviirwv&#10;        kfyorx ROlzwYzozmxvi tvgOlzwYzozmxvi() {&#10;            // 获取负载均衡器&#10;            ivgfim mfoo;&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;请注意，上述代码中的`IryylmXorvmgXlmurtfizgrlm`和`IryylmXorvmg`类需要根据你的项目依赖和配置进行调整。此外，`IlfmwIlyrmIfov`类中的`tvgOlzwYzozmxvi`方法需要实现以返回实际的负载均衡器实例。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="UvrtmXorvmg" />
+                      <option name="end_line" value="10" />
+                      <option name="filename" value="PayFeignApi.java" />
+                      <option name="language" value="JAVA" />
+                      <option name="range">
+                        <Range>
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="12" />
+                              <option name="line" value="10" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="1" />
+                              <option name="line" value="10" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="10" />
+                      <option name="url" value="file:///D:/Study/code/CloudLearn/cloud2024/cloud-api-commons/src/main/java/com/atguigu/cloud/apis/PayFeignApi.java" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="e418dc70407441df9f64b88e164f2ef9" />
+                <option name="messageId" value="3844f247646feac378fafa28441e94a3" />
+                <option name="question" value="lkvmuvrtm的uvrtmxorvmg怎么设置为轮询的方式" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1726668993130" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1726645282596" />
+          <option name="id" value="6dbba8db904742ce8ab8738bfbe24768" />
+          <option name="title" value="注释" />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="计划：&#10;8. 找到UvrtmXlmurt.qzez文件中的这段代码。&#10;7. 在这段代码上方添加注释，解释这段代码的作用。&#10;&#10;代码块：&#10;```qzez&#10;// 设置Uvrtm的重试策略：初始间隔899毫秒，最大间隔8999毫秒，最多重试6次&#10;ivgfim mvd Ivgibvi.Wvuzfog(899, 8999, 6);&#10;```" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="&#10;        ivgfim mvd Ivgibvi.Wvuzfog(899, 8999, 6);" />
+                      <option name="end_line" value="9" />
+                      <option name="filename" value="FeignConfig.java" />
+                      <option name="language" value="JAVA" />
+                      <option name="range">
+                        <Range>
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="49" />
+                              <option name="line" value="9" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="8" />
+                              <option name="line" value="8" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="8" />
+                      <option name="url" value="file:///D:/Study/code/CloudLearn/cloud2024/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/config/FeignConfig.java" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="ed92286bd76a4a4ba0108deb4e5324d6" />
+                <option name="messageId" value="78421c82ff6b6fb0d2ecb23576465bc2" />
+                <option name="question" value="注释" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1726645316005" />
+        </Conversation>
+        <Conversation>
           <option name="createTime" value="1726492275433" />
           <option name="id" value="613586a05bf04992bcb2e63f885ccfa2" />
           <option name="title" value="创建bean的时候出错" />

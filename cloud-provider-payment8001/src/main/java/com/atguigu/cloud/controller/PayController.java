@@ -1,5 +1,7 @@
 package com.atguigu.cloud.controller;
 
+import cn.hutool.core.date.DateUnit;
+import cn.hutool.core.date.DateUtil;
 import com.atguigu.cloud.entities.Pay;
 import com.atguigu.cloud.entities.PayDTO;
 import com.atguigu.cloud.resp.ResultData;
@@ -13,7 +15,9 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import javax.xml.transform.Result;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @Slf4j
@@ -102,6 +106,11 @@ public class PayController {
 
     @GetMapping(value = "/pay/get/info")
     public String getInfoByConsul(@Value("${atguigu.info}") String atguiguInfo) {
+        try{
+            TimeUnit.SECONDS.sleep(10);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return "atguigu:" + atguiguInfo + "\t" + " port: " + port;
     }
 
