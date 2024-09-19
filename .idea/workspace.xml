@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3483b2c0-301e-4869-bce7-043e5407a2ec" name="更改" comment="通过OpenFien调用接口 并集成进通用模块">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/controller/OrderCircuitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayCircuitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+    <list default="true" id="3483b2c0-301e-4869-bce7-043e5407a2ec" name="更改" comment="Resilence4j舱壁配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/apis/PayFeignApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/atguigu/cloud/apis/PayFeignApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/apis/PayFeignApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/cloud/apis/PayFeignApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/controller/OrderCircuitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud/controller/OrderCircuitController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/controller/OrderCircuitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/cloud/controller/OrderCircuitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayCircuitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/cloud/controller/PayCircuitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayCircuitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/cloud/controller/PayCircuitController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,46 +56,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cloud-api-commons [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cloud-api-commons [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.cloud-provider-payment8001 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis_generetor2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApplicationMain8001 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ApplicationMain8001.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ApplicationMain8002 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ApplicationMain8002.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ConsumerMain.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ConsumerMainFeign.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Study/code/CloudLearn/cloud2024/mybatis_generetor2024/src/main/java/com/atguigu/cloud&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Study/code/CloudLearn/cloud2024/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "HTTP 请求.generated-requests | #1.executor": "Run",
+    "Maven.cloud-api-commons [clean].executor": "Run",
+    "Maven.cloud-api-commons [install].executor": "Run",
+    "Maven.cloud-provider-payment8001 [clean].executor": "Run",
+    "Maven.mybatis_generetor2024 [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.2:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApplicationMain8001 (1).executor": "Run",
+    "Spring Boot.ApplicationMain8001.executor": "Run",
+    "Spring Boot.ApplicationMain8002 (1).executor": "Run",
+    "Spring Boot.ApplicationMain8002.executor": "Run",
+    "Spring Boot.ConsumerMain.executor": "Run",
+    "Spring Boot.ConsumerMainFeign.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/Study/code/CloudLearn/cloud2024/mybatis_generetor2024/src/main/java/com/atguigu/cloud",
+    "last_opened_file_path": "D:/Study/code/CloudLearn/cloud2024/cloud-consumer-feign-order80/src/main/java/com/atguigu/cloud",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3137931",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -217,6 +213,7 @@
       <workItem from="1726666203562" duration="5623000" />
       <workItem from="1726710928876" duration="6000" />
       <workItem from="1726754658527" duration="32000" />
+      <workItem from="1726754705038" duration="3898000" />
     </task>
     <task id="LOCAL-00001" summary="基础学习 consul学习">
       <option name="closed" value="true" />
@@ -274,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726643367651</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Resilence4j舱壁配置">
+      <option name="closed" value="true" />
+      <created>1726754813132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726754813132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Resilence4j舱壁配置">
+      <option name="closed" value="true" />
+      <created>1726754828690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726754828690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +310,7 @@
     <MESSAGE value="将里模块配置进consul" />
     <MESSAGE value="通过Balances实现负载均衡" />
     <MESSAGE value="通过OpenFien调用接口 并集成进通用模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="通过OpenFien调用接口 并集成进通用模块" />
+    <MESSAGE value="Resilence4j舱壁配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resilence4j舱壁配置" />
   </component>
 </project>
