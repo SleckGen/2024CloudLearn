@@ -36,10 +36,10 @@ spring:
         response:
           enabled: true
       # 开启circuitbreaker和分组激活 spring.cloud.openfeign.circuitbreaker.enabled
-      circuitbreaker:
-        enabled: true
-        group:
-          enabled: true #没开分组永远不用分组的配置。精确优先、分组次之(开了分组)、默认最后
+#      circuitbreaker:
+#        enabled: true
+#        group:
+#          enabled: false #没开分组永远不用分组的配置。精确优先、分组次之(开了分组)、默认最后
 # feign日志以什么级别监控哪个接口
 #logging:
 #  level:
@@ -70,11 +70,11 @@ spring:
 #      cloud-payment-service:
 #        baseConfig: default
 # Resilience4j CircuitBreaker 按照时间：TIME_BASED 的例子
-resilience4j:
-  timelimiter: #配置请求超时时间
-    configs:
-      default:
-        timeout-duration: 10s #神坑的位置，timelimiter 默认限制远程1s，超于1s就超时异常，配置了降级，就走降级逻辑
+#resilience4j:
+#  timelimiter: #配置请求超时时间
+#    configs:
+#      default:
+#        timeout-duration: 10s #神坑的位置，timelimiter 默认限制远程1s，超于1s就超时异常，配置了降级，就走降级逻辑
 ####resilience4j circuitbreaker 配置熔断
 #  circuitbreaker:
 #    configs:
@@ -121,10 +121,10 @@ resilience4j:
 #      cloud-payment-service:
 #        baseConfig: default
 # zipkin图形展现地址和采样率设置
-management:
-  zipkin:
-    tracing:
-      endpoint: http://localhost:9411/api/v2/spans
-  tracing:
-    sampling:
-      probability: 1.0 #采样率默认为0.1(0.1就是10次只能有一次被记录下来)，值越大收集越及时。
+#management:
+#  zipkin:
+#    tracing:
+#      endpoint: http://localhost:9411/api/v2/spans
+#  tracing:
+#    sampling:
+#      probability: 1.0 #采样率默认为0.1(0.1就是10次只能有一次被记录下来)，值越大收集越及时。

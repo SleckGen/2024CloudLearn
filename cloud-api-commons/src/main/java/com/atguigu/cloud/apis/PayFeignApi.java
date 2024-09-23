@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(value = "cloud-payment-service")
+@FeignClient(value = "cloud-gateway")
+//@FeignClient(value = "cloud-payment-service")
 public interface PayFeignApi {
     /*
     * 新增一条支付相关流水记录
