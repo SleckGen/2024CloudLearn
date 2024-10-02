@@ -16,6 +16,14 @@
         <module>cloud-provider-payment8002</module>
         <module>cloud-consumer-feign-order80</module>
         <module>cloud-gateway9527</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
+        <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloudalibaba-sentinel-service8401</module>
+        <module>cloudalibaba-sentinel-gateway9528</module>
+        <module>seata-order-service2001</module>
+        <module>seata-storage-service2002</module>
+        <module>seata-account-service2003</module>
     </modules>
 
     <properties>
@@ -32,9 +40,18 @@
         <fastjson2.version>2.0.40</fastjson2.version>
         <persistence-api.version>1.0.2</persistence-api.version>
         <spring.boot.test.version>3.1.5</spring.boot.test.version>
-        <spring.boot.version>3.2.0</spring.boot.version>
-        <spring.cloud.version>2023.0.0</spring.cloud.version>
-        <spring.cloud.alibaba.version>2022.0.0.0-RC2</spring.cloud.alibaba.version>
+<!--        <spring.boot.version>3.2.0</spring.boot.version>
+        <spring.cloud.version>2023.0.0</spring.cloud.version>-->
+
+        <!-- 仅为了整合openfeign + alibaba sentinel的案例，降低版本处理下-->
+        <!--<spring.boot.version>3.0.9</spring.boot.version>
+        <spring.cloud.version>2022.0.2</spring.cloud.version>-->
+        <!-- 仅为了整合openfeign + alibaba seata的案例，降低版本处理下-->
+        <spring.boot.version>3.1.7</spring.boot.version>
+        <spring.cloud.version>2022.0.4</spring.cloud.version>
+
+
+        <spring.cloud.alibaba.version>2022.0.0.0</spring.cloud.alibaba.version>
         <micrometer-tracing.version>1.2.0</micrometer-tracing.version>
         <micrometer-observation.version>1.12.0</micrometer-observation.version>
         <feign-micrometer.version>12.5</feign-micrometer.version>
@@ -59,7 +76,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!--springcloud alibaba 2022.0.0.0-RC2-->
+            <!--springcloud alibaba 2022.0.0.0 //-RC2-->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>

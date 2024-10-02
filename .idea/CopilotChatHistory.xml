@@ -4,6 +4,116 @@
     <option name="conversations">
       <list>
         <Conversation>
+          <option name="createTime" value="1727856940845" />
+          <option name="id" value="145faa0b86e24bcbb4bd9251bdb360fa" />
+          <option name="title" value="怎么使用test测试" />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="要在RWVZ中使用单元测试，你可以按照以下步骤操作：&#10;&#10;8. **编写测试类**：首先，你需要为你的代码编写一个测试类。这个类通常与被测试的类在同一个包中，但位于一个专门用于测试的子目录下，比如`hix/gvhg/qzez`。&#10;&#10;7. **添加测试依赖**：确保你的项目包含了适当的测试框架依赖，例如QFmrg。如果你使用Nzevm或Tizwov，可以在`kln.cno`或`yfrow.tizwov`文件中添加相应的依赖。&#10;&#10;6. **编写测试方法**：在测试类中，编写测试方法。这些方法应该使用`@Gvhg`注解，并且不带任何参数。&#10;&#10;5. **运行测试**：在RWVZ中，你可以右键点击测试类或测试方法，然后选择“Ifm”来执行测试。RWVZ会自动识别并运行所有的测试方法。&#10;&#10;4. **查看测试结果**：测试的结果会在RWVZ的输出面板中显示。如果所有测试都通过了，你会看到绿色的勾；如果有测试失败，会显示红色的叉，并提供失败的详细信息。&#10;&#10;下面是一个简单的QFmrg测试示例：&#10;&#10;```qzez&#10;rnklig lit.qfmrg.Gvhg;&#10;rnklig hgzgrx lit.qfmrg.Zhhvig.zhhvigVjfzoh;&#10;&#10;kfyorx xozhh VcznkovGvhg {&#10;    @Gvhg&#10;    kfyorx elrw gvhgZwwrgrlm() {&#10;        Xzoxfozgli xzoxfozgli = mvd Xzoxfozgli();&#10;        rmg ivhfog = xzoxfozgli.zww(8, 7);&#10;        zhhvigVjfzoh(6, ivhfog);&#10;    }&#10;}&#10;```&#10;&#10;在这个例子中，`Xzoxfozgli`是一个假设存在的类，它有一个`zww`方法。测试方法`gvhgZwwrgrlm`检查`zww`方法是否能正确地将两个数字相加。&#10;&#10;请根据你的具体情况调整上述步骤和代码示例。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list />
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="aba232e38ae44b398837b2f2334a09bd" />
+                <option name="messageId" value="5f6400626b0b680c537aa4faa1716c5f" />
+                <option name="question" value="怎么使用gvhg测试" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1727856971936" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1727524377591" />
+          <option name="id" value="3740777036b34b9aa4a48ea232da9fa4" />
+          <option name="title" value="@workspace /explain " />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="workspace" />
+                <option name="answer" value="这段代码是一个Hkirmt Xolfw Tzgvdzb的配置文件`zkkorxzgrlm.bno`的一部分，它定义了路由规则。在这个上下文中，路由规则用于确定如何将传入的SGGK请求转发到相应的服务。&#10;&#10;首先，我们看到一个`kivwrxzgvh`列表，这是用来定义路由匹配条件的。每个条件都是一个键值对，键是条件的类型，值是具体的匹配规则。&#10;&#10;例如：&#10;- `Kzgs=/kzb/tzgvdzb/tvg/**`：这个条件表示，如果请求的路径以`/kzb/tzgvdzb/tvg/`开头，那么这个条件就满足了。星号（*）是一个通配符，表示任意数量的任意字符。&#10;&#10;接下来的几行是被注释掉的配置示例，这些示例展示了其他类型的条件，但它们当前并未启用：&#10;- `Zugvi`和`Yvuliv`：这两个条件允许你基于时间来路由请求，只有在指定的时间之后或之前到达的请求才会被路由。&#10;- `Yvgdvvm`：这个条件允许你指定一个时间范围，在这个时间范围内的请求会被路由。&#10;- `Xllprv`、`Svzwvi`、`Slhg`、`Jfvib`和`IvnlgvZwwi`：这些条件分别用于匹配请求的Xllprv、请求头、主机名、查询参数和远程地址。&#10;- `Nvgslw`：这个条件用于匹配SGGK请求的方法，如TVG、KLHG等。&#10;&#10;最后一行`- Nb=wrznlmw`是一个自定义的条件，它没有在Hkirmt Xolfw Tzgvdzb的标准条件中定义，可能是项目中特定的逻辑或者是示例代码中的占位符。&#10;&#10;在实际应用中，这些条件可以组合使用，通过逻辑与（ZMW）的关系来确定是否匹配路由规则。例如，一个请求可能需要同时满足路径匹配和时间范围的约束才能被正确路由。&#10;&#10;请注意，由于这些条件是注释掉的，它们不会影响当前的路由行为。如果你想启用它们，需要去掉前面的井号（#）来取消注释。" />
+                <option name="chatResource" value="codeAction" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="          kivwrxzgvh:&#10;            - Kzgs=/kzb/tzgvdzb/tvg/**              # 断言，路径相匹配的进行路由&#10;#            - Zugvi=7975-90-76G78:57:91.426715599+91:99[Zhrz/Hszmtszr]&#10;#            - Yvuliv=7975-90-76G78:50:91.426715599+91:99[Zhrz/Hszmtszr]&#10;#            - Yvgdvvm=7975-90-76G78:50:91.426715599+91:99[Zhrz/Hszmtszr],7975-90-76G77:40:91.426715599+91:99[Zhrz/Hszmtszr]&#10;#            - Xllprv=fhvimznv,aabb&#10;#            - Svzwvi=C-Ivjfvhg-Rw, \w+  # 请求头要有C-Ivjfvhg-Rw属性并且值为整数的正则表达式&#10;#            - Slhg=**.zgtfrtf.xln&#10;#            - Jfvib=fhvimznv, \w+  # 要有参数名fhvimznv并且值还要是整数才能路由&#10;#            - IvnlgvZwwi=807.831.875.8/75 # 外部访问我的RK限制，最大跨度不超过67，目前是8~75它们是 XRWI 表示法。&#10;#            - Nvgslw=TVG,KLHG # 外部访问端口方法限制&#10;#            - Nvgslw=TVG,KLHG # 外部访问我的RK限制，最大跨度不超过67，目前是8~75它们是 XRWI 表示法。&#10;            - Nb=wrznlmw" />
+                      <option name="end_line" value="30" />
+                      <option name="filename" value="application.yml" />
+                      <option name="language" value="yaml" />
+                      <option name="range">
+                        <Range>
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="24" />
+                              <option name="line" value="30" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="line" value="18" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="18" />
+                      <option name="url" value="file:///D:/Study/code/CloudLearn/cloud2024/cloud-gateway9527/src/main/resources/application.yml" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="explain" />
+                <option name="conversationId" value="260340602ff346008d0fb2d1e3cda8ff" />
+                <option name="messageId" value="cb3025da12370cbfb53061e28352a015" />
+                <option name="question" value="" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="`nb`这一行的作用是定义一个自定义的路由匹配条件。在这个例子中，`Nb=wrznlmw`表示当请求满足某个特定的自定义逻辑时，该请求就会被路由。然而，由于这个条件不是Hkirmt Xolfw Tzgvdzb内置的条件类型，它可能是项目中特定的逻辑或者是示例代码中的占位符。&#10;&#10;通常，自定义条件需要配合自定义的`KivwrxzgvUzxglib`实现类来工作。这个工厂类会解析配置文件中的条件，并根据解析结果创建一个`Kivwrxzgv`实例，用于实际的请求匹配过程。&#10;&#10;由于这个条件目前没有实现，也没有被其他配置所引用，所以它在当前的配置文件中不起任何实际作用。如果需要使用这个条件，你需要实现相应的`KivwrxzgvUzxglib`并在配置文件中正确地引用它。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="          kivwrxzgvh:&#10;            - Kzgs=/kzb/tzgvdzb/tvg/**              # 断言，路径相匹配的进行路由&#10;#            - Zugvi=7975-90-76G78:57:91.426715599+91:99[Zhrz/Hszmtszr]&#10;#            - Yvuliv=7975-90-76G78:50:91.426715599+91:99[Zhrz/Hszmtszr]&#10;#            - Yvgdvvm=7975-90-76G78:50:91.426715599+91:99[Zhrz/Hszmtszr],7975-90-76G77:40:91.426715599+91:99[Zhrz/Hszmtszr]&#10;#            - Xllprv=fhvimznv,aabb&#10;#            - Svzwvi=C-Ivjfvhg-Rw, \w+  # 请求头要有C-Ivjfvhg-Rw属性并且值为整数的正则表达式&#10;#            - Slhg=**.zgtfrtf.xln&#10;#            - Jfvib=fhvimznv, \w+  # 要有参数名fhvimznv并且值还要是整数才能路由&#10;#            - IvnlgvZwwi=807.831.875.8/75 # 外部访问我的RK限制，最大跨度不超过67，目前是8~75它们是 XRWI 表示法。&#10;#            - Nvgslw=TVG,KLHG # 外部访问端口方法限制&#10;#            - Nvgslw=TVG,KLHG # 外部访问我的RK限制，最大跨度不超过67，目前是8~75它们是 XRWI 表示法。&#10;            - Nb=wrznlmw" />
+                      <option name="end_line" value="30" />
+                      <option name="filename" value="application.yml" />
+                      <option name="language" value="yaml" />
+                      <option name="range">
+                        <Range>
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="24" />
+                              <option name="line" value="30" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="line" value="18" />
+                            </Position>
+                          </option>
+                        </Range>
+                      </option>
+                      <option name="start_line" value="18" />
+                      <option name="url" value="file:///D:/Study/code/CloudLearn/cloud2024/cloud-gateway9527/src/main/resources/application.yml" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="2c54398b661b484ca40bc1354f16b378" />
+                <option name="messageId" value="731d6463662aa4b37996c95a311ccbef" />
+                <option name="question" value="nb这一行的作用" />
+                <option name="rating" value="UNRATED" />
+                <option name="status" value="SUCCESS" />
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1727524433884" />
+        </Conversation>
+        <Conversation>
           <option name="createTime" value="1727099946862" />
           <option name="id" value="6f6c2aaa1af448b39be94c45aeafecb6" />
           <option name="title" value="所在位置 行:1 字符: 1&#10;+ curl http://localhost:9527/pay/ga" />
